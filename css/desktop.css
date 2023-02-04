@@ -1,0 +1,46 @@
+@media screen and (min-width: 1160px){
+    .container{width: 1160px;}
+    .hero{  font-weight: 600;
+        font-size: 56px;}
+        .hero-section{  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg-desktop-1x.jpg);
+            background-size:auto 600px;
+          }
+          @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) 
+  {
+  .hero-section{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg-desktop-2x.jpg);
+  }
+}
+          .hero-section{height: 600px;
+        }
+        .card:last-child {
+          margin-right: 0;
+        }
+        .footer-soc {
+          margin-left: 120px;
+        }
+        .tel {
+          margin-left: 40px;
+          margin-right: 0;
+        }
+        .menu-contacts{flex-direction: row;}
+        .advantages-list{flex-wrap: unset;}
+        .item div {
+          display:flex;}
+          .our-team .container{width: 1160px;}
+          .text-h{font-weight: 500;
+            font-size: 20px;
+          line-height: 1.2 ;}
+          .customers>.container{width: 1160px;}
+          .cust-list{flex-wrap: unset;}
+          footer > .container {
+            width: 1160px;
+            display: flex;
+            flex-wrap:nowrap;
+              align-items: center;}
+              .subscribe{margin-top: 0;margin-left: 80px;}
+              .footer-soc{margin-bottom: 0;margin-left: 120px;}
+              .subscribe-btn{margin-top: 40px;}
+}
